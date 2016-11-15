@@ -18,7 +18,7 @@ public class HeapSort {
 
     public static void heapSort(int[] inputArray){
         heapify(inputArray);
-        inputArray = siftDown(inputArray.length);
+        siftDown(inputArray);
     }
 
     private static void heapify(int[] inputArray){
@@ -27,11 +27,9 @@ public class HeapSort {
         }
     }
 
-    private static int[] siftDown(int arrayLength){
-        int[] sortedArray = new int[arrayLength];
-        for(int i = 0; i < sortedArray.length; i++){
-            sortedArray[i] = _heap.remove();
+    private static void siftDown(int[] inputArray){
+        for(int i = 0; i < inputArray.length; i++){
+            inputArray[i] = _heap.remove();
         }
-        return sortedArray;
     }
 }
