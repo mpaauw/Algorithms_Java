@@ -15,5 +15,4 @@ public class QuickSort_Test {
         _quickSort.quickSort(_testTools._unsortedSampleIntegerArray);
         _testTools.compare(_testTools._unsortedSampleIntegerArray, _testTools._sortedSampleIntegerArray);
     }
-
 }
