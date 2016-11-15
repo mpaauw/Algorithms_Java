@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="953a1e69-2701-4895-af07-01019f71182e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sort/EfficientSort/QuickSort/QuickSort.java" afterPath="$PROJECT_DIR$/src/Sort/EfficientSort/QuickSort/QuickSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sort/EfficientSort/QuickSort/QuickSort_Test.java" afterPath="$PROJECT_DIR$/src/Sort/EfficientSort/QuickSort/QuickSort_Test.java" />
     </list>
     <ignored path="Algorithms_Java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -100,22 +100,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sort/EfficientSort/QuickSort/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+            <state relative-caret-position="527">
+              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuickSort_Test.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="QuickSort_Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Sort/EfficientSort/QuickSort/QuickSort_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="255">
+              <caret line="15" column="103" selection-start-line="15" selection-start-column="103" selection-end-line="15" selection-end-column="103" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -197,12 +199,12 @@
         <option value="$PROJECT_DIR$/src/Sort/EfficientSort/MergeSort/MergeSort_Test.java" />
         <option value="$PROJECT_DIR$/src/Sort/SimpleSort/SelectionSort/SelectionSort_Test.java" />
         <option value="$PROJECT_DIR$/src/Sort/EfficientSort/HeapSort/HeapSort_Test.java" />
-        <option value="$PROJECT_DIR$/src/Sort/EfficientSort/QuickSort/QuickSort_Test.java" />
         <option value="$PROJECT_DIR$/src/Sort/SimpleSort/InsertionSort/InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/SimpleSort/SelectionSort/SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/EfficientSort/MergeSort/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/EfficientSort/HeapSort/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/EfficientSort/QuickSort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/Sort/EfficientSort/QuickSort/QuickSort_Test.java" />
       </list>
     </option>
   </component>
@@ -1142,14 +1144,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/EfficientSort/QuickSort/QuickSort_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort/EfficientSort/HeapSort/HeapSort_Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1170,9 +1164,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort/EfficientSort/QuickSort/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        <state relative-caret-position="527">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/EfficientSort/QuickSort/QuickSort_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="103" selection-start-line="15" selection-start-column="103" selection-end-line="15" selection-end-column="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
