@@ -12,7 +12,7 @@ public class MergeSort {
     * SUMMARY:  Takes an unsorted array and performs a Merge Sort on it, using a top-down array implementation.
     *           Efficiency: O(n log(n))
     * */
-    public static void mergeSort(int[] inputArray) {
+    public void mergeSort(int[] inputArray) {
         if(inputArray.length < 2){
             return;
         }

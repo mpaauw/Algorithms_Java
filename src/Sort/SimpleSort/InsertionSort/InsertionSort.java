@@ -8,7 +8,7 @@ public class InsertionSort {
     * SUMMARY:  Takes an unsorted array and performs an Insertion Sort on it
     *           Efficiency: O(n^2)
     * */
-    public static void insertionSort(int[] inputArray) {
+    public void insertionSort(int[] inputArray) {
         for (int i = 0; i < inputArray.length; i++) {
             int j = i;
             while ((j > 0) && (inputArray[j - 1] > inputArray[j])) {

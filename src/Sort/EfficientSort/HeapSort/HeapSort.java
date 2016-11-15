@@ -16,7 +16,7 @@ public class HeapSort {
 
     private static PriorityQueue<Integer> _heap = new PriorityQueue<Integer>();
 
-    public static void heapSort(int[] inputArray){
+    public void heapSort(int[] inputArray){
         heapify(inputArray);
         siftDown(inputArray);
     }
