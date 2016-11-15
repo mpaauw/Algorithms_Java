@@ -30,7 +30,7 @@ public class MergeSort {
     private static void merge(int[] sortedLeft, int[] sortedRight, int[]inputArray) {
         int leftIter = 0, rightIter = 0, arryIter = 0;
         while (leftIter < sortedLeft.length && rightIter < sortedRight.length) {
-            if (sortedLeft[leftIter] <= sortedRight[rightIter]) {
+            if (sortedLeft[leftIter] < sortedRight[rightIter]) {
                 inputArray[arryIter++] = sortedLeft[leftIter++];
             } else {
                 inputArray[arryIter++] = sortedRight[rightIter++];

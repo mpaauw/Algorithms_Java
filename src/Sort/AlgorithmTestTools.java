@@ -9,11 +9,10 @@ public class AlgorithmTestTools {
     public int[] _unsortedSampleIntegerArray;
     public int[] _sortedSampleIntegerArray;
     private int _sampleIntegerArraySize;
-    private final int UPPER_BOUND = 2147483647;
-    private final int LOWER_BOUND = -2147483647;
+    private final int UPPER_BOUND = 50;
 
     public AlgorithmTestTools(){
-        int size = _randomizer.nextInt(UPPER_BOUND) + (LOWER_BOUND);
+        int size = _randomizer.nextInt(UPPER_BOUND) + 1;
         _sampleIntegerArraySize = size;
         _unsortedSampleIntegerArray = new int[_sampleIntegerArraySize];
         _sortedSampleIntegerArray = new int[_sampleIntegerArraySize];
@@ -33,9 +32,14 @@ public class AlgorithmTestTools {
 
     private void populate(){
         for(int i = 0; i < _unsortedSampleIntegerArray.length; i++){
-            int random = _randomizer.nextInt(UPPER_BOUND) + (LOWER_BOUND);
+            int random = _randomizer.nextInt(UPPER_BOUND * 2) - UPPER_BOUND;
             _unsortedSampleIntegerArray[i] = random;
             _sortedSampleIntegerArray[i] = random;
+        }
+
+        // Run assertions on both arrays to ensure that all values are equivalent when unsorted:
+        for(int i = 0; i < _sampleIntegerArraySize; i++){
+            assert(_unsortedSampleIntegerArray[i] == _sortedSampleIntegerArray[i]);
         }
     }
 
