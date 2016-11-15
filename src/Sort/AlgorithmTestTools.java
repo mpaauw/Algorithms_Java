@@ -1,9 +1,25 @@
 package Sort;
 
+import java.util.Arrays;
+import java.util.Random;
+
 public class AlgorithmTestTools {
 
-    public int[] _unsortedSampleIntegerArray = {117,21,5,2,0,99999,25,55};
-    public int[] _sortedSampleIntegerArray = {0,2,5,21,25,55,117,99999};
+    Random _randomizer = new Random();
+    public int[] _unsortedSampleIntegerArray;
+    public int[] _sortedSampleIntegerArray;
+    private int _sampleIntegerArraySize;
+    private final int UPPER_BOUND = 2147483647;
+    private final int LOWER_BOUND = -2147483647;
+
+    public AlgorithmTestTools(){
+        int size = _randomizer.nextInt(UPPER_BOUND) + (LOWER_BOUND);
+        _sampleIntegerArraySize = size;
+        _unsortedSampleIntegerArray = new int[_sampleIntegerArraySize];
+        _sortedSampleIntegerArray = new int[_sampleIntegerArraySize];
+        populate();
+        sort();
+    }
 
     /*
     * SUMMARY:  Assertion method used to check each element of a newly-sorted array,
@@ -13,5 +29,17 @@ public class AlgorithmTestTools {
         for(int i = 0; i < sorted.length; i++){
             assert(unsorted[i] == sorted[i]);
         }
+    }
+
+    private void populate(){
+        for(int i = 0; i < _unsortedSampleIntegerArray.length; i++){
+            int random = _randomizer.nextInt(UPPER_BOUND) + (LOWER_BOUND);
+            _unsortedSampleIntegerArray[i] = random;
+            _sortedSampleIntegerArray[i] = random;
+        }
+    }
+
+    private void sort(){
+        Arrays.sort(_sortedSampleIntegerArray);
     }
 }
