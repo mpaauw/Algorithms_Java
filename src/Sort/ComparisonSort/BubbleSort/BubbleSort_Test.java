@@ -1,6 +1,7 @@
-package Sort.BubbleSortVariants.BubbleSort;
+package Sort.ComparisonSort.BubbleSort;
 
 import Sort.AlgorithmTestTools;
+import Sort.ComparisonSort.BubbleSort.BubbleSort;
 import org.junit.Test;
 
 public class BubbleSort_Test {

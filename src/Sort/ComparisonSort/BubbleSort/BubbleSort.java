@@ -1,4 +1,4 @@
-package Sort.BubbleSortVariants.BubbleSort;
+package Sort.ComparisonSort.BubbleSort;
 
 public class BubbleSort {
     public void bubbleSort(int[] inputArray){
