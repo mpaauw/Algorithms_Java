@@ -1,6 +1,14 @@
 package Sort.ComparisonSort.BubbleSort;
 
+/*
+* SUMMARY:  A class that includes code to perform a Bubble Sort.
+*           Efficiency: O(n^2)
+* */
 public class BubbleSort {
+
+    /*
+    * SUMMARY:  Takes an unsorted array and performs a Bubble Sort on it.
+    * */
     public void bubbleSort(int[] inputArray){
         int n = inputArray.length;
         while(n != 0){

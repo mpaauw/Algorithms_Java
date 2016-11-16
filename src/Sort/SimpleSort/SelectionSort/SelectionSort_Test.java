@@ -1,7 +1,6 @@
 package Sort.SimpleSort.SelectionSort;
 
 import Sort.AlgorithmTestTools;
-import com.sun.xml.internal.org.jvnet.fastinfoset.sax.EncodingAlgorithmContentHandler;
 import org.junit.Test;
 
 public class SelectionSort_Test {

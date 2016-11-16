@@ -4,6 +4,7 @@ package Sort.SimpleSort.InsertionSort;
 * SUMMARY:  A class that includes code to perform an Insertion Sort.
 * */
 public class InsertionSort {
+
     /*
     * SUMMARY:  Takes an unsorted array and performs an Insertion Sort on it
     *           Efficiency: O(n^2)

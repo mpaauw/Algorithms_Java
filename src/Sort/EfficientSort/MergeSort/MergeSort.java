@@ -25,7 +25,7 @@ public class MergeSort {
     }
 
     /*
-    * SUMMARY:  To be used in tandem with the mergeSort function; used to recursively sort arrays of varying size.
+    * SUMMARY:  To be used with the mergeSort function; used to recursively sort arrays of varying size.
     * */
     private static void sort(int lowIndex, int highIndex){
         if(lowIndex < highIndex){
@@ -37,7 +37,7 @@ public class MergeSort {
     }
 
     /*
-    * SUMMARY: To be used in tandem with the mergeSort function; used to merge two sorted arrays together.
+    * SUMMARY: To be used with the mergeSort function; used to merge two sorted arrays together.
     * */
     private static void merge(int lowIndex, int highIndex, int middle) {
         for(int i = lowIndex; i <= highIndex; i++){
