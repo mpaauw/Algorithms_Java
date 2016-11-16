@@ -15,20 +15,5 @@ public class BubbleSort {
             }
             n = swapIter;
         }
-//        int n = inputArray.length;
-//        boolean swapped = false;
-//        while(swapped){
-//            swapped = false;
-//            for(int i = 1; i < n - 1; i++){
-//                if(inputArray[i - 1] > inputArray[i]){
-//                    int temp = inputArray[i - 1];
-//                    inputArray[i - 1] = inputArray[i];
-//                    inputArray[i] = temp;
-//                    swapped = true;
-//                }
-//            }
-//            n = n - 1;
-//        }
-
     }
 }
