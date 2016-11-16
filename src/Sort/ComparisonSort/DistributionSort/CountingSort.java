@@ -2,6 +2,10 @@ package Sort.ComparisonSort.DistributionSort;
 
 public class CountingSort {
 
+    /*
+    * SUMMARY:  Takes an unsorted array and performs a Counting Sort on it.
+    *           Efficiency: O(n + k)
+    * */
     public void countingSort(int[] inputArray){
         int[] indexArray = new int[inputArray.length + 1], returnArray = new int[inputArray.length];
         for(Integer item : inputArray){ // add unsorted items to index array
