@@ -2,6 +2,10 @@ package Sort.ComparisonSort.CombSort;
 
 public class CombSort {
 
+    /*
+    * SUMMARY:  Takes an unsorted array and performs a Comb Sort on it.
+    *           Efficiency: O((n^2)/(2^p)), where p is the number of increments
+    * */
     public void combSort(int[] inputArray){
         double gap = inputArray.length;
         double shrinkFactor = 1.3;
