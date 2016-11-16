@@ -1,4 +1,4 @@
-package Sort.ComparisonSort.DistributionSort;
+package Sort.DistributionSort;
 
 import Sort.AlgorithmTestTools;
 import org.junit.Test;

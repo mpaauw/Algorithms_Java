@@ -1,4 +1,4 @@
-package Sort.ComparisonSort.DistributionSort;
+package Sort.DistributionSort;
 
 public class CountingSort {
 
