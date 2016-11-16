@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="953a1e69-2701-4895-af07-01019f71182e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sort/ComparisonSort/DistributionSort/CountingSort.java" afterPath="$PROJECT_DIR$/src/Sort/ComparisonSort/DistributionSort/CountingSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sort/ComparisonSort/DistributionSort/CountingSort_Test.java" afterPath="$PROJECT_DIR$/src/Sort/ComparisonSort/DistributionSort/CountingSort_Test.java" />
     </list>
     <ignored path="Algorithms_Java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -95,8 +94,8 @@
       <file leaf-file-name="CountingSort_Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Sort/ComparisonSort/DistributionSort/CountingSort_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="14" column="103" selection-start-line="14" selection-start-column="103" selection-end-line="14" selection-end-column="103" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -175,8 +174,8 @@
         <option value="$PROJECT_DIR$/src/Sort/ComparisonSort/CombSort/CombSort_Test.java" />
         <option value="$PROJECT_DIR$/src/Sort/AlgorithmTestTools.java" />
         <option value="$PROJECT_DIR$/src/Sort/ComparisonSort/CombSort/CombSort.java" />
-        <option value="$PROJECT_DIR$/src/Sort/ComparisonSort/DistributionSort/CountingSort_Test.java" />
         <option value="$PROJECT_DIR$/src/Sort/ComparisonSort/DistributionSort/CountingSort.java" />
+        <option value="$PROJECT_DIR$/src/Sort/ComparisonSort/DistributionSort/CountingSort_Test.java" />
       </list>
     </option>
   </component>
@@ -1263,8 +1262,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort/ComparisonSort/DistributionSort/CountingSort_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="14" column="103" selection-start-line="14" selection-start-column="103" selection-end-line="14" selection-end-column="103" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
