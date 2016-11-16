@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="953a1e69-2701-4895-af07-01019f71182e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sort/ComparisonSort/CombSort/CombSort.java" afterPath="$PROJECT_DIR$/src/Sort/ComparisonSort/CombSort/CombSort.java" />
-    </list>
+    <list default="true" id="953a1e69-2701-4895-af07-01019f71182e" name="Default" comment="" />
     <ignored path="Algorithms_Java.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -113,12 +111,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CombSort.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CombSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sort/ComparisonSort/CombSort/CombSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CombSort_Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Sort/ComparisonSort/CombSort/CombSort_Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -181,6 +191,7 @@
         <option value="$PROJECT_DIR$/src/Sort/AlgorithmTestTools.java" />
         <option value="$PROJECT_DIR$/src/Sort/ComparisonSort/ShellSort/ShellSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/ComparisonSort/CombSort/CombSort.java" />
+        <option value="$PROJECT_DIR$/src/Sort/ComparisonSort/CombSort/CombSort_Test.java" />
       </list>
     </option>
   </component>
@@ -969,7 +980,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Sort/EfficientSort/EfficientSort_Tests.java" />
     <entry file="file://$PROJECT_DIR$/src/Sort/SimpleSort/SimpleSort_Tests.java" />
     <entry file="file://$PROJECT_DIR$/src/Sort/SimpleSort/InsertionSort/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1226,6 +1236,16 @@
         <state relative-caret-position="136">
           <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/ComparisonSort/CombSort/CombSort_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
