@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="953a1e69-2701-4895-af07-01019f71182e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sort/ComparisonSort/CombSort/CombSort.java" afterPath="$PROJECT_DIR$/src/Sort/ComparisonSort/CombSort/CombSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sort/ComparisonSort/DistributionSort/CountingSort.java" afterPath="$PROJECT_DIR$/src/Sort/ComparisonSort/DistributionSort/CountingSort.java" />
     </list>
     <ignored path="Algorithms_Java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,17 +81,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CountingSort.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CountingSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Sort/ComparisonSort/DistributionSort/CountingSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+            <state relative-caret-position="323">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShellSort.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShellSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sort/ComparisonSort/ShellSort/ShellSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -161,8 +161,8 @@
         <option value="$PROJECT_DIR$/src/Sort/ComparisonSort/ShellSort/ShellSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/ComparisonSort/CombSort/CombSort_Test.java" />
         <option value="$PROJECT_DIR$/src/Sort/AlgorithmTestTools.java" />
-        <option value="$PROJECT_DIR$/src/Sort/ComparisonSort/DistributionSort/CountingSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/ComparisonSort/CombSort/CombSort.java" />
+        <option value="$PROJECT_DIR$/src/Sort/ComparisonSort/DistributionSort/CountingSort.java" />
       </list>
     </option>
   </component>
@@ -1228,10 +1228,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/ComparisonSort/DistributionSort/CountingSort.java">
+    <entry file="file://$PROJECT_DIR$/src/Sort/ComparisonSort/CombSort/CombSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+        <state relative-caret-position="374">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -1246,10 +1246,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/ComparisonSort/CombSort/CombSort.java">
+    <entry file="file://$PROJECT_DIR$/src/Sort/ComparisonSort/DistributionSort/CountingSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        <state relative-caret-position="323">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding />
         </state>
       </provider>
