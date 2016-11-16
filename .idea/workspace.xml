@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="953a1e69-2701-4895-af07-01019f71182e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms_Java/Sort/ComparisonSort/ShellSort/ShellSort.class" afterPath="$PROJECT_DIR$/out/production/Algorithms_Java/Sort/ComparisonSort/ShellSort/ShellSort.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms_Java/Sort/ComparisonSort/ShellSort/ShellSort_Test.class" afterPath="$PROJECT_DIR$/out/production/Algorithms_Java/Sort/ComparisonSort/ShellSort/ShellSort_Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sort/AlgorithmTestTools.java" afterPath="$PROJECT_DIR$/src/Sort/AlgorithmTestTools.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sort/ComparisonSort/ShellSort/ShellSort.java" afterPath="$PROJECT_DIR$/src/Sort/ComparisonSort/ShellSort/ShellSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sort/ComparisonSort/ShellSort/ShellSort_Test.java" afterPath="$PROJECT_DIR$/src/Sort/ComparisonSort/ShellSort/ShellSort_Test.java" />
     </list>
     <ignored path="Algorithms_Java.iws" />
@@ -62,7 +67,7 @@
               <entry file="file://$PROJECT_DIR$/src/Sort/AlgorithmTestTools.java">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="187">
-                    <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+                    <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
                     <folding>
                       <element signature="imports" expanded="true" />
                     </folding>
@@ -74,15 +79,15 @@
         </state>
       </content>
     </window>
-    <window id="6">
+    <window id="15">
       <content type="file-editors">
         <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file leaf-file-name="BubbleSort_Test.java" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/Sort/ComparisonSort/BubbleSort/BubbleSort_Test.java">
+          <leaf>
+            <file leaf-file-name="ShellSort_Test.java" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/Sort/ComparisonSort/ShellSort/ShellSort_Test.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="102">
-                    <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+                  <state relative-caret-position="255">
+                    <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
                     <folding>
                       <element signature="imports" expanded="true" />
                     </folding>
@@ -101,23 +106,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ShellSort.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ShellSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Sort/ComparisonSort/ShellSort/ShellSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShellSort_Test.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Sort/ComparisonSort/ShellSort/ShellSort_Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
+            <state relative-caret-position="170">
+              <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#187#196#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,17 +172,17 @@
         <option value="$PROJECT_DIR$/src/Sort/EfficientSort/MergeSort/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/EfficientSort/QuickSort/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/EfficientSort/HeapSort/HeapSort.java" />
-        <option value="$PROJECT_DIR$/src/Sort/ComparisonSort/ShellSort/ShellSort.java" />
-        <option value="$PROJECT_DIR$/src/Sort/AlgorithmTestTools.java" />
         <option value="$PROJECT_DIR$/src/Sort/ComparisonSort/ShellSort/ShellSort_Test.java" />
+        <option value="$PROJECT_DIR$/src/Sort/AlgorithmTestTools.java" />
+        <option value="$PROJECT_DIR$/src/Sort/ComparisonSort/ShellSort/ShellSort.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="width" value="1096" />
+    <option name="height" value="1936" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -459,7 +454,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BubbleSort_Test.testBubbleSort">
+  <component name="RunManager" selected="JUnit.ShellSort_Test.testShellSort">
     <configuration default="false" name="MergeSort_Test.mergeSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -473,32 +468,6 @@
       <option name="PACKAGE_NAME" value="Sort.EfficientSort.MergeSort" />
       <option name="MAIN_CLASS_NAME" value="Sort.EfficientSort.MergeSort.MergeSort_Test" />
       <option name="METHOD_NAME" value="mergeSort" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="QuickSort_Test.testQuickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Sort.EfficientSort.QuickSort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Algorithms_Java" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Sort.EfficientSort.QuickSort" />
-      <option name="MAIN_CLASS_NAME" value="Sort.EfficientSort.QuickSort.QuickSort_Test" />
-      <option name="METHOD_NAME" value="testQuickSort" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -577,6 +546,32 @@
       <option name="PACKAGE_NAME" value="Sort.ComparisonSort.BubbleSort" />
       <option name="MAIN_CLASS_NAME" value="Sort.ComparisonSort.BubbleSort.BubbleSort_Test" />
       <option name="METHOD_NAME" value="testBubbleSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ShellSort_Test.testShellSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Sort.ComparisonSort.ShellSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Algorithms_Java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Sort.ComparisonSort.ShellSort" />
+      <option name="MAIN_CLASS_NAME" value="Sort.ComparisonSort.ShellSort.ShellSort_Test" />
+      <option name="METHOD_NAME" value="testShellSort" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -826,18 +821,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.MergeSort_Test.mergeSort" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.QuickSort_Test.testQuickSort" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.InsertionSort_Test.insertionSort" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SelectionSort_Test.selectionSort" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BubbleSort_Test.testBubbleSort" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.InsertionSort_Test.insertionSort" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SelectionSort_Test.selectionSort" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BubbleSort_Test.testBubbleSort" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ShellSort_Test.testShellSort" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BubbleSort_Test.testBubbleSort" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MergeSort_Test.mergeSort" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SelectionSort_Test.selectionSort" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.InsertionSort_Test.insertionSort" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.QuickSort_Test.testQuickSort" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ShellSort_Test.testShellSort" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BubbleSort_Test.testBubbleSort" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MergeSort_Test.mergeSort" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SelectionSort_Test.selectionSort" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.InsertionSort_Test.insertionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -858,59 +853,59 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BubbleSort_Test_testBubbleSort - 2016.11.16 at 09h 45m 30s.xml">
-      <configuration name="BubbleSort_Test.testBubbleSort" configurationId="JUnit" />
+    <history-entry file="ShellSort_Test_testShellSort - 2016.11.16 at 13h 15m 21s.xml">
+      <configuration name="ShellSort_Test.testShellSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BubbleSort_Test_testBubbleSort - 2016.11.16 at 09h 46m 24s.xml">
-      <configuration name="BubbleSort_Test.testBubbleSort" configurationId="JUnit" />
+    <history-entry file="ShellSort_Test_testShellSort - 2016.11.16 at 13h 15m 24s.xml">
+      <configuration name="ShellSort_Test.testShellSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BubbleSort_Test_testBubbleSort - 2016.11.16 at 09h 46m 53s.xml">
-      <configuration name="BubbleSort_Test.testBubbleSort" configurationId="JUnit" />
+    <history-entry file="ShellSort_Test_testShellSort - 2016.11.16 at 13h 15m 35s.xml">
+      <configuration name="ShellSort_Test.testShellSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BubbleSort_Test_testBubbleSort - 2016.11.16 at 09h 48m 18s.xml">
-      <configuration name="BubbleSort_Test.testBubbleSort" configurationId="JUnit" />
+    <history-entry file="ShellSort_Test_testShellSort - 2016.11.16 at 13h 15m 38s.xml">
+      <configuration name="ShellSort_Test.testShellSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BubbleSort_Test_testBubbleSort - 2016.11.16 at 09h 48m 39s.xml">
-      <configuration name="BubbleSort_Test.testBubbleSort" configurationId="JUnit" />
+    <history-entry file="ShellSort_Test_testShellSort - 2016.11.16 at 13h 15m 46s.xml">
+      <configuration name="ShellSort_Test.testShellSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BubbleSort_Test_testBubbleSort - 2016.11.16 at 09h 49m 10s.xml">
-      <configuration name="BubbleSort_Test.testBubbleSort" configurationId="JUnit" />
+    <history-entry file="ShellSort_Test_testShellSort - 2016.11.16 at 13h 15m 49s.xml">
+      <configuration name="ShellSort_Test.testShellSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BubbleSort_Test_testBubbleSort - 2016.11.16 at 09h 49m 28s.xml">
-      <configuration name="BubbleSort_Test.testBubbleSort" configurationId="JUnit" />
+    <history-entry file="ShellSort_Test_testShellSort - 2016.11.16 at 13h 15m 51s.xml">
+      <configuration name="ShellSort_Test.testShellSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BubbleSort_Test_testBubbleSort - 2016.11.16 at 09h 54m 58s.xml">
-      <configuration name="BubbleSort_Test.testBubbleSort" configurationId="JUnit" />
+    <history-entry file="ShellSort_Test_testShellSort - 2016.11.16 at 13h 16m 01s.xml">
+      <configuration name="ShellSort_Test.testShellSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BubbleSort_Test_testBubbleSort - 2016.11.16 at 09h 55m 08s.xml">
-      <configuration name="BubbleSort_Test.testBubbleSort" configurationId="JUnit" />
+    <history-entry file="ShellSort_Test_testShellSort - 2016.11.16 at 13h 16m 04s.xml">
+      <configuration name="ShellSort_Test.testShellSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BubbleSort_Test_testBubbleSort - 2016.11.16 at 09h 55m 25s.xml">
-      <configuration name="BubbleSort_Test.testBubbleSort" configurationId="JUnit" />
+    <history-entry file="ShellSort_Test_testShellSort - 2016.11.16 at 13h 16m 16s.xml">
+      <configuration name="ShellSort_Test.testShellSort" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="1912" y="-8" width="1096" height="1936" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32895458" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16748768" sideWeight="0.1537037" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32895458" sideWeight="0.48518518" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15052083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26759258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16748768" sideWeight="0.8462963" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -933,7 +928,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="52" />
+      <option name="time" value="71" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1071,18 +1066,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1144,6 +1132,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms_Java.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort/ComparisonSort/BubbleSort/BubbleSort_Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1162,10 +1158,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms_Java.iml">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1173,7 +1169,17 @@
     <entry file="file://$PROJECT_DIR$/src/Sort/AlgorithmTestTools.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/ComparisonSort/ShellSort/ShellSort_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1182,18 +1188,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort/ComparisonSort/ShellSort/ShellSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/ComparisonSort/ShellSort/ShellSort_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
+        <state relative-caret-position="170">
+          <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#187#196#0" expanded="true" />
           </folding>
         </state>
       </provider>
