@@ -7,7 +7,13 @@ public class CountingSort {
     *           Efficiency: O(n + k)
     * */
     public void countingSort(int[] inputArray){
-        int[] indexArray = new int[inputArray.length + 1], returnArray = new int[inputArray.length];
+        int max = 0;
+        for(Integer item : inputArray){
+            if(item > max){
+                max = item;
+            }
+        }
+        int[] indexArray = new int[max], returnArray = new int[inputArray.length];
         for(Integer item : inputArray){ // add unsorted items to index array
             indexArray[item]++;
         }
