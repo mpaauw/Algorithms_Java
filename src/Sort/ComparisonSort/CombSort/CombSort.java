@@ -20,7 +20,8 @@ public class CombSort {
                 if(inputArray[i] > inputArray[i + (int)gap]){
                     int temp = inputArray[i];
                     inputArray[i] = inputArray[i + (int)gap];
-                    inputArray[i + (int)gap] = inputArray[i];
+                    inputArray[i + (int)gap] = temp;
+                    sorted = false;
                 }
                 i++;
             }
