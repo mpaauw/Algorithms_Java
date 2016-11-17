@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="953a1e69-2701-4895-af07-01019f71182e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sort/AlgorithmTestTools.java" afterPath="$PROJECT_DIR$/src/Sort/AlgorithmTestTools.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sort/DistributionSort/CountingSort.java" afterPath="$PROJECT_DIR$/src/Sort/DistributionSort/CountingSort.java" />
     </list>
     <ignored path="Algorithms_Java.iws" />
@@ -57,8 +54,8 @@
       <file leaf-file-name="CountingSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sort/DistributionSort/CountingSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state relative-caret-position="544">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -146,8 +143,8 @@
         <option value="$PROJECT_DIR$/src/Sort/ComparisonSort/CombSort/CombSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/ComparisonSort/DistributionSort/CountingSort_Test.java" />
         <option value="$PROJECT_DIR$/src/Sort/ComparisonSort/DistributionSort/CountingSort.java" />
-        <option value="$PROJECT_DIR$/src/Sort/DistributionSort/CountingSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/AlgorithmTestTools.java" />
+        <option value="$PROJECT_DIR$/src/Sort/DistributionSort/CountingSort.java" />
       </list>
     </option>
   </component>
@@ -475,7 +472,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CountingSort_Test">
+  <component name="RunManager" selected="JUnit.CountingSort_Test.testCountingSort">
     <configuration default="false" name="BubbleSort_Test.testBubbleSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -849,8 +846,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CountingSort_Test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CountingSort_Test.testCountingSort" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CountingSort_Test.testCountingSort" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CountingSort_Test" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.CombSort_Test.testCombSort" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.ShellSort_Test.testShellSort" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.BubbleSort_Test.testBubbleSort" />
@@ -874,9 +871,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CountingSort_Test - 2016.11.17 at 08h 34m 31s.xml">
-      <configuration name="CountingSort_Test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CountingSort_Test - 2016.11.17 at 08h 34m 32s.xml">
       <configuration name="CountingSort_Test" configurationId="JUnit" />
     </history-entry>
@@ -903,6 +897,9 @@
     </history-entry>
     <history-entry file="CountingSort_Test - 2016.11.17 at 08h 34m 50s.xml">
       <configuration name="CountingSort_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CountingSort_Test_testCountingSort - 2016.11.17 at 08h 36m 16s.xml">
+      <configuration name="CountingSort_Test.testCountingSort" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -949,20 +946,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Sort/DistributionSort/CountingSort.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="77" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Sort/DistributionSort/CountingSort.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="78" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="81" />
     </breakpoint-manager>
     <watches-manager />
@@ -1186,14 +1169,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/DistributionSort/CountingSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort/AlgorithmTestTools.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1201,6 +1176,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/DistributionSort/CountingSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

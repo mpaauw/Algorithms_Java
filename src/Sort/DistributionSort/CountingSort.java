@@ -18,16 +18,10 @@ public class CountingSort {
             }
         }
         int[] indexArray = new int[(max - min) + 1];
-        for(Integer item : tempArray){ // add unsorted items to index array
-            //indexArray[item]++;
+        for(Integer item : tempArray){
             indexArray[item - min]++;
         }
-//        for(int i = 1; i < indexArray.length; i++){ // count totals in index array
-//            int total = indexArray[i] + indexArray[i - 1];
-//            indexArray[i] = total;
-//        }
         int indexToInsert = 0, currentIndex = 0, finishIndex = indexArray.length;
-
         while(currentIndex != finishIndex){
             int instanceCount = indexArray[currentIndex];
             for(int j = 0; j < instanceCount; j++){
