@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class BucketSort {
 
-    InsertionSort _insertionSort = new InsertionSort();
+    private InsertionSort _insertionSort = new InsertionSort();
 
     /*
     * SUMMARY:  Takes an unsorted array and performs a Bucket Sort on it.
@@ -48,5 +48,4 @@ public class BucketSort {
             }
         }
     }
-
 }
