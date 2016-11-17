@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="953a1e69-2701-4895-af07-01019f71182e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Sort/DistributionSort/CountingSort_Test.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Sort/DistributionSort/BucketSort.java" afterPath="$PROJECT_DIR$/src/Sort/DistributionSort/BucketSort/BucketSort.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Sort/DistributionSort/CountingSort.java" afterPath="$PROJECT_DIR$/src/Sort/DistributionSort/CountingSort/CountingSort.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Sort/DistributionSort/CountingSort_Test.java" afterPath="$PROJECT_DIR$/src/Sort/DistributionSort/CountingSort/CountingSort_Test.java" />
-    </list>
+    <list default="true" id="953a1e69-2701-4895-af07-01019f71182e" name="Default" comment="" />
     <ignored path="Algorithms_Java.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -84,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BucketSort.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BucketSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sort/DistributionSort/BucketSort/BucketSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -92,6 +87,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BucketSort_Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Sort/DistributionSort/BucketSort/BucketSort_Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,8 +119,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -174,6 +179,7 @@
         <option value="$PROJECT_DIR$/src/Sort/DistributionSort/BucketSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/DistributionSort/CountingSort/CountingSort_Test.java" />
         <option value="$PROJECT_DIR$/src/Sort/DistributionSort/BucketSort/BucketSort.java" />
+        <option value="$PROJECT_DIR$/src/Sort/DistributionSort/BucketSort/BucketSort_Test.java" />
       </list>
     </option>
   </component>
@@ -1014,13 +1020,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Sort/EfficientSort/MergeSort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort/EfficientSort/HeapSort/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1271,6 +1270,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/DistributionSort/BucketSort/BucketSort_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
