@@ -1,4 +1,4 @@
-package Sort.DistributionSort;
+package Sort.DistributionSort.BucketSort;
 
 import Sort.SimpleSort.InsertionSort.InsertionSort;
 
