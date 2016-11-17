@@ -9,7 +9,7 @@ public class AlgorithmTestTools {
     public int[] _unsortedSampleIntegerArray;
     public int[] _sortedSampleIntegerArray;
     private int _sampleIntegerArraySize;
-    private final int UPPER_BOUND = 200000;
+    private final int UPPER_BOUND = 20;
 
     public AlgorithmTestTools(){
         int size = _randomizer.nextInt(UPPER_BOUND) + 1;
