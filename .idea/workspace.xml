@@ -96,8 +96,8 @@
       <file leaf-file-name="BucketSort_Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Sort/DistributionSort/BucketSort/BucketSort_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+            <state relative-caret-position="272">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -541,33 +541,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CountingSort_Test.testCountingSort">
-    <configuration default="false" name="BubbleSort_Test.testBubbleSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Sort.ComparisonSort.BubbleSort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Algorithms_Java" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Sort.ComparisonSort.BubbleSort" />
-      <option name="MAIN_CLASS_NAME" value="Sort.ComparisonSort.BubbleSort.BubbleSort_Test" />
-      <option name="METHOD_NAME" value="testBubbleSort" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.BucketSort_Test.testBucketSort">
     <configuration default="false" name="ShellSort_Test.testShellSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -660,6 +634,32 @@
       <option name="MAIN_CLASS_NAME" value="Sort.DistributionSort.CountingSort.CountingSort_Test" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="BucketSort_Test.testBucketSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Sort.DistributionSort.BucketSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Algorithms_Java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Sort.DistributionSort.BucketSort" />
+      <option name="MAIN_CLASS_NAME" value="Sort.DistributionSort.BucketSort.BucketSort_Test" />
+      <option name="METHOD_NAME" value="testBucketSort" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -907,19 +907,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.BubbleSort_Test.testBubbleSort" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ShellSort_Test.testShellSort" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CombSort_Test.testCombSort" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CountingSort_Test.testCountingSort" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CountingSort_Test" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ShellSort_Test.testShellSort" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CombSort_Test.testCombSort" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CountingSort_Test.testCountingSort" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CountingSort_Test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BucketSort_Test.testBucketSort" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CountingSort_Test.testCountingSort" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CountingSort_Test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CombSort_Test.testCombSort" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ShellSort_Test.testShellSort" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BubbleSort_Test.testBubbleSort" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BucketSort_Test.testBucketSort" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CountingSort_Test.testCountingSort" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CountingSort_Test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CombSort_Test.testCombSort" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ShellSort_Test.testShellSort" />
       </list>
     </recent_temporary>
   </component>
@@ -940,8 +940,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CountingSort_Test - 2016.11.17 at 08h 34m 32s.xml">
-      <configuration name="CountingSort_Test" configurationId="JUnit" />
+    <history-entry file="BucketSort_Test_testBucketSort - 2016.11.17 at 10h 06m 22s.xml">
+      <configuration name="BucketSort_Test.testBucketSort" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CountingSort_Test - 2016.11.17 at 08h 34m 33s.xml">
       <configuration name="CountingSort_Test" configurationId="JUnit" />
@@ -983,7 +983,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3197492" sideWeight="0.1515625" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32079414" sideWeight="0.48518518" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32079414" sideWeight="0.48518518" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1279,8 +1279,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort/DistributionSort/BucketSort/BucketSort_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+        <state relative-caret-position="272">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
