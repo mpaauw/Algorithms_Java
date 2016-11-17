@@ -15,12 +15,22 @@ public class BucketSort {
     * */
     public void bucketSort(int[] inputArray){
         int max = 0, min = 0;
-        getMaxMin(max, min, inputArray);
-        int numBuckets = (int)Math.sqrt(inputArray.length);
-        ArrayList<Integer>[] buckets = new ArrayList[numBuckets];
-        int divisor = (int)Math.ceil((max + 1) / numBuckets);
         for(Integer item : inputArray){
-            int j = (int)Math.floor(item / divisor);
+            if(item > max){
+                max = item;
+            }
+            if(item <= min){
+                min = item;
+            }
+        }
+        //int numBuckets = (int)Math.sqrt(inputArray.length);
+        ArrayList<Integer>[] buckets = new ArrayList[inputArray.length];
+        for(int i = 0; i < buckets.length; i++){ // initialize each bucket
+            buckets[i] = new ArrayList<Integer>();
+        }
+        int divisor = (int)Math.ceil((max + 1) / buckets.length);
+        for(Integer item : inputArray){
+            int j = (int)Math.abs(Math.floor(item / divisor));
             buckets[j].add(item);
         }
 
@@ -34,17 +44,6 @@ public class BucketSort {
             for(Integer sortedItem : buckets[i]){
                 inputArray[reinsertIter] = sortedItem;
                 reinsertIter++;
-            }
-        }
-    }
-
-    private static void getMaxMin(int max, int min, int[] inputArray){
-        for(Integer item : inputArray){
-            if(item > max){
-                max = item;
-            }
-            if(item <= min){
-                min = item;
             }
         }
     }
