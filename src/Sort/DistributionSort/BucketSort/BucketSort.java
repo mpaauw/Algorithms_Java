@@ -1,13 +1,6 @@
 package Sort.DistributionSort.BucketSort;
 
-import Sort.SimpleSort.InsertionSort.InsertionSort;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-
 public class BucketSort {
-
-    private InsertionSort _insertionSort = new InsertionSort();
 
     /*
     * SUMMARY:  Takes an unsorted array and performs a Bucket Sort on it.
@@ -23,27 +16,17 @@ public class BucketSort {
                 min = item;
             }
         }
-        //int numBuckets = (int)Math.sqrt(inputArray.length);
-        ArrayList<Integer>[] buckets = new ArrayList[inputArray.length];
-        for(int i = 0; i < buckets.length; i++){ // initialize each bucket
-            buckets[i] = new ArrayList<Integer>();
-        }
-        int divisor = (int)Math.ceil((max + 1) / buckets.length);
-        for(Integer item : inputArray){
-            int j = (int)Math.abs(Math.floor(item / divisor));
-            buckets[j].add(item);
-        }
-
+        int[] buckets = new int[max + 1];
         for(int i = 0; i < buckets.length; i++){
-            int[] bucketArray = Arrays.stream(buckets[i].toArray(new Integer[buckets[i].size()])).mapToInt(Integer::intValue).toArray();
-            _insertionSort.insertionSort(bucketArray);
+            buckets[i] = 0;
         }
-
+        for(int i = 0; i < inputArray.length; i++){
+            buckets[inputArray[i]]++;
+        }
         int reinsertIter = 0;
         for(int i = 0; i < buckets.length; i++){
-            for(Integer sortedItem : buckets[i]){
-                inputArray[reinsertIter] = sortedItem;
-                reinsertIter++;
+            for(int j = 0; j < buckets[i]; j++){
+                inputArray[reinsertIter++] = i;
             }
         }
     }
