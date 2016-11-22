@@ -9,7 +9,7 @@ public class AlgorithmTestTools {
     public int[] _unsortedSampleIntegerArray;
     public int[] _sortedSampleIntegerArray;
     private int _sampleIntegerArraySize;
-    private final int UPPER_BOUND = 50;
+    private final int UPPER_BOUND = 20;
 
     public AlgorithmTestTools(){
         int size = _randomizer.nextInt(UPPER_BOUND) + 1;
@@ -32,7 +32,7 @@ public class AlgorithmTestTools {
 
     private void populate(){
         for(int i = 0; i < _unsortedSampleIntegerArray.length; i++){
-            // int random = _randomizer.nextInt(UPPER_BOUND * 2) - UPPER_BOUND; // temporarily removing to test bucket sort
+            // int random = _randomizer.nextInt(UPPER_BOUND * 2) - UPPER_BOUND; // temporarily removing to test distribution sorts
             int random = _randomizer.nextInt(UPPER_BOUND);
             _unsortedSampleIntegerArray[i] = random;
             _sortedSampleIntegerArray[i] = random;
