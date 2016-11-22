@@ -3,6 +3,12 @@ package Sort.DistributionSort.RadixSort;
 import java.util.ArrayList;
 
 public class RadixSort {
+
+    /*
+    * SUMMARY:  Takes an unsorted array and performs a Radix Sort on it.
+    *           Efficiency: O(nk)
+    * NOTE:     This implementation is only able to sort integers >= 0.
+    * */
     public void radixSort(int[] inputArray){
         int max = 0;
         for(int i = 0; i < inputArray.length; i++){

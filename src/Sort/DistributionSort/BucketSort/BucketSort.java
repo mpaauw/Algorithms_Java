@@ -5,6 +5,7 @@ public class BucketSort {
     /*
     * SUMMARY:  Takes an unsorted array and performs a Bucket Sort on it.
     *           Efficiency: O(n + k)
+    * NOTE:     This implementation is only able to sort integers >= 0.
     * */
     public void bucketSort(int[] inputArray){
         int max = 0, min = 0;
