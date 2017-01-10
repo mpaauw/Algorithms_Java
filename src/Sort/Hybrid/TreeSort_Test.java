@@ -10,7 +10,7 @@ public class TreeSort_Test {
     @Test
     public void testTreeSort() throws Exception{
         _treeSort = new TreeSort();
-        _treeSort.treeSort(_testTools._unsortedSampleIntegerArray);
+        _testTools._unsortedSampleIntegerArray = _treeSort.treeSort(_testTools._unsortedSampleIntegerArray);
         _testTools.compare(_testTools._unsortedSampleIntegerArray, _testTools._sortedSampleIntegerArray);
     }
 }
