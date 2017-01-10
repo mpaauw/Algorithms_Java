@@ -13,7 +13,8 @@ public class TreeSort {
         for(int i = 0; i < inputArray.length; i++){
             bst.insert(inputArray[i]);
         }
-        return inputArray = Arrays.stream(bst.traverseInOrderSortCall(nonPrimArray)).mapToInt(Integer::intValue).toArray();
+        inputArray = Arrays.stream(bst.traverseInOrderSortCall(nonPrimArray)).mapToInt(Integer::intValue).toArray();
+        return inputArray;
     }
 
 
