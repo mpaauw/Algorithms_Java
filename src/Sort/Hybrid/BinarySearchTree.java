@@ -7,8 +7,6 @@
 
 package Sort.Hybrid;
 
-import java.util.ArrayList;
-
 /*
 * SUMMARY:  Represents a BinarySearchTree data structure.
 *
@@ -55,20 +53,21 @@ public class BinarySearchTree<T> {
 
     /*
     * SUMMARY:  Traverses the tree using In-Order traversal method.
-    *           Returns an array of objects sorted according to appearance during traversal.
+    *           Returns an array of elements based on their order of appearance during traversal.
     * */
-    public void traverseInOrderCallSort(T[] inputArray){
+    public T[] traverseInOrderSortCall(T[] inputArray){
         int iterator = 0;
-        traverseInOrderSort(root, inputArray, iterator);
+        return traverseInOrderSort(root, inputArray, iterator);
     }
-    private void traverseInOrderSort(BinaryTreeNode<T> current, T[] inputArray, int iterator){
+    private T[] traverseInOrderSort(BinaryTreeNode<T> current, T[] inputArray, int iterator){
         if(current == null){
-            return;
+            return inputArray;
         }
         traverseInOrderSort(current.left, inputArray, iterator);
         inputArray[iterator] = current.getValue();
         iterator++;
         traverseInOrderSort(current.right, inputArray, iterator);
+        return inputArray;
     }
 
     /*

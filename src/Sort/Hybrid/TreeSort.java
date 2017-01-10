@@ -1,13 +1,21 @@
 package Sort.Hybrid;
 
+import java.util.Arrays;
+
 public class TreeSort {
 
-    private BinarySearchTree<Integer> bst = new BinarySearchTree<Integer>();
+    private BinarySearchTree<Integer> bst = new BinarySearchTree<>();
 
-    public void treeSort(int[] inputArray){
+    public int[] treeSort(int[] inputArray){
+
+        Integer[] nonPrimArray = Arrays.stream(inputArray).boxed().toArray(Integer[]::new);
+
         for(int i = 0; i < inputArray.length; i++){
             bst.insert(inputArray[i]);
         }
-        //inputArray =  bst.traverseInOrderCallSort().stream().mapToInt(i -> i).toArray();
+        return inputArray = Arrays.stream(bst.traverseInOrderSortCall(nonPrimArray)).mapToInt(Integer::intValue).toArray();
     }
+
+
 }
+
