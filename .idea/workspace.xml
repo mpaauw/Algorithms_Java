@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="953a1e69-2701-4895-af07-01019f71182e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sort/Hybrid/BinarySearchTree.java" afterPath="$PROJECT_DIR$/src/Sort/Hybrid/BinarySearchTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sort/Hybrid/TreeSort.java" afterPath="$PROJECT_DIR$/src/Sort/Hybrid/TreeSort.java" />
-    </list>
+    <list default="true" id="953a1e69-2701-4895-af07-01019f71182e" name="Default" comment="" />
     <ignored path="Algorithms_Java.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -114,11 +111,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sort/Hybrid/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
               <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeSort_Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Sort/Hybrid/TreeSort_Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -194,9 +201,9 @@
         <option value="$PROJECT_DIR$/src/Sort/DistributionSort/RadixSort/RadixSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/Hybrid/TimSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/Hybrid/BinaryTreeNode.java" />
-        <option value="$PROJECT_DIR$/src/Sort/Hybrid/TreeSort_Test.java" />
         <option value="$PROJECT_DIR$/src/Sort/Hybrid/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/Sort/Hybrid/TreeSort.java" />
+        <option value="$PROJECT_DIR$/src/Sort/Hybrid/TreeSort_Test.java" />
       </list>
     </option>
   </component>
@@ -1280,14 +1287,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/Hybrid/TreeSort_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort/EfficientSort/MergeSort/MergeSort_Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1318,6 +1317,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/Hybrid/TreeSort_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
