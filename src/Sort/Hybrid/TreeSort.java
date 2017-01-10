@@ -8,6 +8,6 @@ public class TreeSort {
         for(int i = 0; i < inputArray.length; i++){
             bst.insert(inputArray[i]);
         }
-        inputArray =  bst.traverseInOrderCallSort().stream().mapToInt(i -> i).toArray();
+        //inputArray =  bst.traverseInOrderCallSort().stream().mapToInt(i -> i).toArray();
     }
 }

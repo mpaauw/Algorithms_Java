@@ -57,18 +57,18 @@ public class BinarySearchTree<T> {
     * SUMMARY:  Traverses the tree using In-Order traversal method.
     *           Returns an array of objects sorted according to appearance during traversal.
     * */
-    public ArrayList<T> traverseInOrderCallSort(){
-        ArrayList<T> sortedArrayList = new ArrayList<T>();
-        return traverseInOrderSort(root, sortedArrayList);
+    public void traverseInOrderCallSort(T[] inputArray){
+        int iterator = 0;
+        traverseInOrderSort(root, inputArray, iterator);
     }
-    private ArrayList<T> traverseInOrderSort(BinaryTreeNode<T> current, ArrayList<T> sortedArrayList){
+    private void traverseInOrderSort(BinaryTreeNode<T> current, T[] inputArray, int iterator){
         if(current == null){
-            return sortedArrayList; // return an empty arraylist
+            return;
         }
-        traverseInOrderSort(current.left, sortedArrayList);
-        sortedArrayList.add(current.getValue());
-        traverseInOrderSort(current.right, sortedArrayList);
-        return sortedArrayList;
+        traverseInOrderSort(current.left, inputArray, iterator);
+        inputArray[iterator] = current.getValue();
+        iterator++;
+        traverseInOrderSort(current.right, inputArray, iterator);
     }
 
     /*
