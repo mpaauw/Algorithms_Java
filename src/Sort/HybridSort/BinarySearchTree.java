@@ -5,7 +5,7 @@
 //
 // No license, free use
 
-package Sort.Hybrid;
+package Sort.HybridSort;
 
 /*
 * SUMMARY:  Represents a BinarySearchTree data structure.

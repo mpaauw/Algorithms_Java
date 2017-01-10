@@ -1,4 +1,4 @@
-package Sort.Hybrid;
+package Sort.HybridSort;
 
 import java.util.Arrays;
 
