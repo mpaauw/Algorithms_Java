@@ -1,5 +1,7 @@
 package Sort.Hybrid;
 
+import Resources.BinarySearchTree;
+
 import java.util.Arrays;
 
 public class TreeSort {

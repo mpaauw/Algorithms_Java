@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="953a1e69-2701-4895-af07-01019f71182e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sort/Other/TopologicalSort.java" afterPath="$PROJECT_DIR$/src/Sort/Other/TopologicalSort.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Sort/Hybrid/BinarySearchTree.java" afterPath="$PROJECT_DIR$/src/Resources/BinarySearchTree.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Sort/Hybrid/BinaryTreeNode.java" afterPath="$PROJECT_DIR$/src/Resources/BinaryTreeNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sort/Hybrid/TreeSort.java" afterPath="$PROJECT_DIR$/src/Sort/Hybrid/TreeSort.java" />
     </list>
     <ignored path="Algorithms_Java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,9 +33,11 @@
             <file leaf-file-name="TreeSort.java" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/Sort/Hybrid/TreeSort.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="68">
-                    <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-                    <folding />
+                  <state relative-caret-position="102">
+                    <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                    </folding>
                   </state>
                 </provider>
               </entry>
@@ -70,16 +74,16 @@
         </entry>
       </file>
       <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sort/Hybrid/BinarySearchTree.java">
+        <entry file="file://$PROJECT_DIR$/src/Resources/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopologicalSort.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TopologicalSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sort/Other/TopologicalSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -89,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTreeNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sort/Hybrid/BinaryTreeNode.java">
+      <file leaf-file-name="BinaryTreeNode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Resources/BinaryTreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="12" selection-start-line="12" selection-start-column="0" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="442">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -141,7 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Sort/EfficientSortTest.java" />
         <option value="$PROJECT_DIR$/src/Sort/EfficientSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/EfficientSort/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/EfficientSort/EfficientSort.java" />
@@ -192,6 +195,7 @@
         <option value="$PROJECT_DIR$/src/Sort/HybridSort/TreeSort_Test.java" />
         <option value="$PROJECT_DIR$/src/Sort/Hybrid/TreeSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/Other/TopologicalSort.java" />
+        <option value="$PROJECT_DIR$/src/Resources/BinaryTreeNode.java" />
       </list>
     </option>
   </component>
@@ -608,6 +612,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -744,7 +752,7 @@
     <configuration default="false" name="TreeSort_Test.testTreeSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Sort.Hybrid.*" />
+          <option name="PATTERN" value="Resources.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1076,7 +1084,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Sort/Hybrid/TreeSort.java</url>
-          <line>16</line>
+          <line>18</line>
           <properties />
           <option name="timeStamp" value="104" />
         </line-breakpoint>
@@ -1305,14 +1313,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/Hybrid/BinaryTreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="12" selection-start-line="12" selection-start-column="0" selection-end-line="36" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/util/function/ToIntFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1324,14 +1324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/Hybrid/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1356,9 +1348,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort/Hybrid/TreeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1366,6 +1360,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/BinaryTreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
         </state>
       </provider>
