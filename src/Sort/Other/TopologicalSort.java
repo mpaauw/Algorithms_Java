@@ -9,17 +9,17 @@ import java.util.HashMap;
 
 public class TopologicalSort {
 
-    private Stack<GraphNode<Integer>> _stack = new Stack();
+    private Stack<GraphNode<Character>> _stack = new Stack();
 
-    public int[] topologicalSort(Graph<Integer> inputGraph){
+    public Character[] topologicalSort(Graph<Character> inputGraph){
         if(sort(inputGraph.getVertices())){
             return processStack();
         }
         return null;
     }
 
-    private boolean sort(HashMap<Integer, GraphNode<Integer>> nodes){
-        for(GraphNode<Integer> node : nodes.values()){
+    private boolean sort(HashMap<Character, GraphNode<Character>> nodes){
+        for(GraphNode<Character> node : nodes.values()){
             if(node.getVisitState() == Graph.VisitState.Unvisited){
                 if(!recurseDFS(node)){
                     return false; // loop encountered
@@ -29,14 +29,14 @@ public class TopologicalSort {
         return true;
     }
 
-    private boolean recurseDFS(GraphNode<Integer> node){
+    private boolean recurseDFS(GraphNode<Character> node){
         if(node.getVisitState() == Graph.VisitState.Visiting){
             return false; // loop encountered
         }
         if(node.getVisitState() == Graph.VisitState.Unvisited){
             node.setVisitState(Graph.VisitState.Visiting);
-            ArrayList<GraphNode<Integer>> children = node.getChildren();
-            for(GraphNode<Integer> child : children){
+            ArrayList<GraphNode<Character>> children = node.getChildren();
+            for(GraphNode<Character> child : children){
                 if(!recurseDFS(child)){
                     return false;
                 }
@@ -47,11 +47,11 @@ public class TopologicalSort {
         return true;
     }
 
-    private int[] processStack(){
-        int[] finalOrdering = new int[_stack.getSize()];
+    private Character[] processStack(){
+        Character[] finalOrdering = new Character[_stack.getSize()];
         int i = 0;
         while(!_stack.isEmpty()){
-            GraphNode<Integer> node = _stack.pop();
+            GraphNode<Character> node = _stack.pop();
             finalOrdering[i] = node.getData();
             i++;
         }
