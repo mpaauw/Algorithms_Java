@@ -19,7 +19,7 @@ public class TopologicalSort_Test {
         Character[] sortedGraphOrder = _topologicalSort.topologicalSort(_graph);
         assert(sortedGraphOrder.length == _properSortOrder.length);
         for(int i = 0; i < sortedGraphOrder.length; i++){
-            assert(sortedGraphOrder[i] == _properSortOrder[i]);
+            assert(sortedGraphOrder[i].equals(_properSortOrder[i]));
         }
     }
 
